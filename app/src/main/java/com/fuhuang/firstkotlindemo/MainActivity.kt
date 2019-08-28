@@ -14,7 +14,13 @@ class MainActivity : AppCompatActivity() {
 //        stringMethod()
 //        nullMethod()
 
-        zoneRange()
+//        zoneRange()
+        test()
+    }
+
+    fun test(){
+        val extendsDemo = ExtendsDemo()
+        extendsDemo.testMyBase()
     }
 
 
